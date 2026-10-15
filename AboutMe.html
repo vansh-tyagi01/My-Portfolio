@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(195, 207, 207);
+        }
+
+        .Intro {
+            text-align: center;
+        }
+
+
+        .para {
+            font-size: 20px;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 0;
+            animation: typing 8s steps(180) forwards;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>About Page</h1>
+    <div class="Intro">
+        <p class="para">Hello everyone how are you my name is <span style="color: blue;">Vansh Tyagi</span>. Iam B.Tech
+            AIML student currently working on new project and learning continously my goal is become a AI and ML
+            engineer.
+            So I am currently learning DSA solving question on online platform like code studion and leetcode.
+        </p>
+    </div>
+
 </body>
+
 </html>
